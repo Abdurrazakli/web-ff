@@ -5,6 +5,7 @@ body,html{
     font-size: 16px;
     background-color: hsl(204, 43%, 93%);
     text-align: left;
+    font-family: 'Karla',sans-serif;
 }
 
 .page{
@@ -23,7 +24,7 @@ body,html{
 }
 .up{
     background-color: white;
-    padding: 8% 8% 8% 8%;
+    padding: 8% 0% 8% 8%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -73,14 +74,30 @@ h2{
 }
 .button{
     width: 100%;
-    padding: 8% 0% ;
+    padding: 8% 4% ;
     margin: 10px 0px;
     border-radius: 8px;
+    border: none;/*removes white line*/
     background-color: hsl(71, 73%, 54%);
     color: white;
     font-size: 100%;
     font-weight: bold;
     letter-spacing: 1px;
+}
+@media screen and (max-width: 640px) {
+    .down{
+        flex-direction: column;
+    }
+    .down-left,.down-right{
+        width: 100%;
+    }
+    .down-left{
+        border-radius: 0px;
+    }
+    .down-right{
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
 }
 .apple {
 
