@@ -16,7 +16,7 @@ body,html{
     padding: 100px 50px;
 }
 .content{
-    width: 702px;
+    width: 704px;
     display: flex;
     flex-direction: column;
     background-color: aqua;
