@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body,html{
+    height: 100%;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    text-align: left;
+}
+
+.page{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+}
+.content{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.up{
+    background-color: white;
+    padding: 8% 8% 8% 8%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.down{
+    display: flex;
+    color: white;
+}
+.down-left{
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 5% 8%;
+    border-bottom-left-radius: 10px;
+}
+.down-right{
+    width: 50%;
+    background-color: #4abebd/*hsl(179, 62%, 55%)*/;
+    padding: 5% 8%;
+    border-bottom-right-radius: 10px;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.25rem; /*20px*/
+    margin: 15px 0px 20px 0px;
+}
+.up h1{
+    font-size: 1.6rem;/*26px*/
+    font-weight: bold;
+    margin: 1rem 0px;
+    color:hsl(179, 62%, 50%);
+}
+.up h2{
+    color: hsl(71, 73%, 54%);
+}
+.up p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.6rem;
+}
+.down-right p{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    opacity: 0.9;/*fixme*/
+}
+.down-left h3{
+    font-size: 16px;
+    margin: 20px 0px 10px 0px;
+}
+.button{
+    width: 100%;
+    padding: 8% 0% ;
+    margin: 10px 0px;
+    border-radius: 8px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.apple {
+
+background-color: hsl(71, 73%, 54%);
+    background-color: hsl(204, 43%, 93%);
+    background-color: hsl(218, 22%, 67%);
+}
+
