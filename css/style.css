@@ -16,7 +16,7 @@ body,html{
     padding: 100px 50px;
 }
 .content{
-    width: 600px;
+    width: 702px;
     display: flex;
     flex-direction: column;
     background-color: aqua;
@@ -24,7 +24,7 @@ body,html{
 }
 .up{
     background-color: white;
-    padding: 8% 0% 8% 8%;
+    padding: 8% 8% 8% 8%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -76,7 +76,7 @@ h2{
     width: 100%;
     padding: 8% 4% ;
     margin: 10px 0px;
-    border-radius: 8px;
+    border-radius: 5px;
     border: none;/*removes white line*/
     background-color: hsl(71, 73%, 54%);
     color: white;
